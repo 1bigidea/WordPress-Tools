@@ -86,6 +86,29 @@ $menu_page->run();
 
 ![menu with submenu page](images/img1.png)
 
+### 2a. Add Submenu to Settings
+
+```php
+// Hooked on Init
+$messages_page = new SettingsPage(
+			array(
+				'page_title'  => 'Blocked Messages',
+				'menu_title'  => 'Blocked Messages',
+				'capability'  => 'manage_options',
+				'menu_slug'   => 'kmcf7-filtered-messages',
+				'position'    => 1
+				'function'    => array(
+					$this,
+					'messages_view'
+				)
+			) );
+$messages_page->run();
+```
+
+#### output
+
+![menu with submenu page](images/img1.png)
+
 ### 3. Sub Menu page with tabs
 
 ```php
