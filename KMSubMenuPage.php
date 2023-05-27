@@ -7,7 +7,8 @@
  * @author kofi mokome
  * @version  1.0.4
  */
-
+ 
+namespace OneBigIdea\WordPress-Tools;
 if ( ! class_exists( 'KMSubMenuPage' ) ) {
 
 	class KMSubMenuPage {

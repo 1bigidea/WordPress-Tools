@@ -7,6 +7,8 @@
  * @version 1.0.4
  * @author kofi mokome
  */
+
+namespace OneBigIdea\WordPress-Tools;
 if ( ! class_exists( 'KMMenuPage' ) ) {
 	class KMMenuPage {
 		private $page_title;

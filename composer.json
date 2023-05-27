@@ -1,0 +1,16 @@
+{
+    "name": "onebigidea/admin-settings-page",
+    "description": "This package provides WordPress oop approach to admin Settings page",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tom Ransom",
+            "email": "transom@1bigidea.com"
+        }
+    ],
+	"autoload": {
+		"psr-4": {
+			"OneBigIdea\\WordPress-Tools\\": "src/"
+		}
+    }
+}

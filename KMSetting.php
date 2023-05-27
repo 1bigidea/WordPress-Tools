@@ -8,6 +8,7 @@
  * @author kofi mokome
  */
 
+namespace OneBigIdea\WordPress-Tools;
 if ( ! class_exists( 'KMSetting' ) ) {
 	class KMSetting {
 		private $menu_slug;
