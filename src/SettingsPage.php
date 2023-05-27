@@ -100,7 +100,7 @@ namespace OneBigIdea\AdminSettings;
 		 * @since 1.0.0
 		 */
 		public function run() {
-			$this->create_sub_menu_page();
+			add_action('admin_menu', array($this, 'create_sub_menu_page'));
 		}
 
 
