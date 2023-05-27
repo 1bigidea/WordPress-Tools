@@ -1,16 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: kofi
- * Date: 6/5/19
- * Time: 12:41 PM
- * @version 1.0.2
- * @author kofi mokome
- */
-
-namespace OneBigIdea\WordPress-Tools;
-if ( ! class_exists( 'KMSetting' ) ) {
-	class KMSetting {
+namespace OneBigIdea\AdminSettings;
+	class Setting {
 		private $menu_slug;
 		private $fields;
 		private $section_id;
@@ -177,4 +167,4 @@ if ( ! class_exists( 'KMSetting' ) ) {
 
 		}
 	}
-}
+

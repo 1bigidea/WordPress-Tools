@@ -1,17 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: kofi
- * Date: 6/5/19
- * Time: 12:41 PM
- * @author kofi mokome
- * @version  1.0.4
- */
- 
-namespace OneBigIdea\WordPress-Tools;
-if ( ! class_exists( 'KMSubMenuPage' ) ) {
-
-	class KMSubMenuPage {
+namespace OneBigIdea\AdminSettings;
+	class SubMenuPage {
 		private $page_title;
 		private $menu_title;
 		private $capability;
@@ -137,7 +126,6 @@ if ( ! class_exists( 'KMSubMenuPage' ) ) {
 			$this->parent_slug = $slug;
 		}
 	}
-}
 
 
 

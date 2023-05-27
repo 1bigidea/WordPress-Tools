@@ -1,16 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: kofi
- * Date: 6/5/19
- * Time: 11:59 AM
- * @version 1.0.4
- * @author kofi mokome
- */
-
-namespace OneBigIdea\WordPress-Tools;
-if ( ! class_exists( 'KMMenuPage' ) ) {
-	class KMMenuPage {
+namespace OneBigIdea\AdminSettings;
+	class MenuPage {
 		private $page_title;
 		private $menu_title;
 		private $capability;
@@ -106,5 +96,5 @@ if ( ! class_exists( 'KMMenuPage' ) ) {
 		}
 
 	}
-}
+
 
